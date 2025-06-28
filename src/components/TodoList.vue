@@ -3,7 +3,7 @@
     <h1>Todo List dengan Axios & JSON Server (CRUD lengkap)</h1>
 
     <form @submit.prevent="addTodo">
-      <input v-model="newTodo" placeholder="Tambah todo baru..." required />
+      <input v-model="newTodo" placeholder="Tambah todo baru...." required />
       <button type="submit" :disabled="loading">Tambah</button>
     </form>
 
